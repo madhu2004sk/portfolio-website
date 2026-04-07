@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ms - Web Developer Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Ms - Web Developer Portfolio">
+    <meta name="keywords" content="Web Developer, Portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Ms">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ms</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-toggle">☰</div>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+       <div class="hero-container">
+
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Madhusuthanan</span> 👋</h1>
+            <h3 class="typing"></h3>
+            <p>I Build clean, responsive and modern web applications.</p>
+            <a href="assets/Madhusuthanan.pdf" download class="btn">Download Resume</a>
+        </div>
+        
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="assets/profile.jpg" alt="Madhusuthanan Profile">
+            </div>
+        </div>
+
+       </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about hidden">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate Web Developer who builds responsive and
+                        modern web applications using HTML, CSS, JavaScript and Python.
+                    </p>
+                    <p>
+                        I enjoy solving problems and creating clean UI designs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills hidden">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">PostgreSQL</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects hidden">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>AI Medicinal Plant </h3>
+                <p>Web app that detects plant and gives medicinal uses using AI.</p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Personal responsive portfolio website.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact hidden">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <p>Email: msg2004sk@email.com</p>
+            <p>Location: India</p>
+            <br>
+            <a href="mailto:msg2004sk@email.com" class="btn">Send Email</a>
+        </div>
+        <br>
+        <div class="social-links">
+            <a href="https://github.com/madhu2004sk" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/madhusuthanan-s-8a52a8331" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p> 2026 Madhusuthanan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
